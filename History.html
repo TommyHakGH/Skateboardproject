@@ -1,0 +1,310 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>History Page</title>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+		<style>
+body{
+	background-color: rgba(212,168,169,1.00);
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	} 	
+#container {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(129,226,125,1.00);
+	padding-top: 179px;
+	padding-right: 179px;
+	padding-left: 179px;
+	padding-bottom: 179px;
+	border-radius: 0px;
+	margin-top: -20px;
+	margin-bottom: 0px;
+	background-image: -webkit-linear-gradient(90deg,rgba(212,168,169,1.00) 0%,rgba(177,241,175,1.00) 21.76%,rgba(151,229,148,1.00) 47.15%,rgba(129,226,125,1.00) 83.94%,rgba(129,226,125,1.00) 100%);
+	background-image: -moz-linear-gradient(90deg,rgba(212,168,169,1.00) 0%,rgba(177,241,175,1.00) 21.76%,rgba(151,229,148,1.00) 47.15%,rgba(129,226,125,1.00) 83.94%,rgba(129,226,125,1.00) 100%);
+	background-image: -o-linear-gradient(90deg,rgba(212,168,169,1.00) 0%,rgba(177,241,175,1.00) 21.76%,rgba(151,229,148,1.00) 47.15%,rgba(129,226,125,1.00) 83.94%,rgba(129,226,125,1.00) 100%);
+	background-image: linear-gradient(0deg,rgba(212,168,169,1.00) 0%,rgba(177,241,175,1.00) 21.76%,rgba(151,229,148,1.00) 47.15%,rgba(129,226,125,1.00) 83.94%,rgba(129,226,125,1.00) 100%);
+	border-top: 31px solid rgba(0,0,0,1.00);
+	border-right: 3px solid rgba(0,0,0,1.00);
+	border-left: 3px solid rgba(0,0,0,1.00);
+}
+h1 {
+	font-family: 'Permanent Marker', cursive;
+	font-style: normal;
+	font-weight: 400;
+	color: rgba(0,0,0,1.00);
+	font-size: 64px;
+	margin-top: -125px;
+	margin-bottom: -48px;
+	padding-left: 39px;
+	padding-right: 11px;
+	padding-bottom: 16px;
+	margin-left: 403px;
+	margin-right: 0px;
+	padding-top: 0px;
+	text-shadow: 4px -4px rgba(129,226,125,1.00);
+	}
+h3{
+	margin-left: 189px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	color: rgba(225,214,165,1.00);
+	font-family: 'Ravi Prakash', cursive;
+	font-size: 36px;
+	text-shadow: 3px 3px rgba(0,0,0,0.87);
+	padding-top: 0px;
+	padding-left: 0px;
+		}
+		h2{
+	font-family: 'Permanent Marker', cursive;
+	color: rgba(0,0,0,1.00);
+	text-shadow: 2px -2px rgba(129,226,125,1.00);
+	margin-top: -1px;
+	font-size: 48px;
+	margin-left: 130px;
+	padding-right: 3px;
+	margin-right: 42px;
+	padding-left: 0px;
+		}	
+			h4{
+	font-family: 'Righteous', cursive;
+	font-size: 15px;
+	text-shadow: 1px 0px rgba(142,142,142,1.00);
+	padding-top: 0px;
+	margin-top: 9px;
+	margin-bottom: 10px;
+			}	
+#main {
+	width: 800px;
+	margin-left: -166px;
+	margin-right: -29px;
+	background-color: rgba(216,160,30,1.00);
+	padding-top: 51px;
+	padding-right: 450px;
+	padding-left: 80px;
+	padding-bottom: 51px;
+	margin-top: -29px;
+	margin-bottom: -29px;
+	font-family: 'Righteous', cursive;
+	border-radius: 30px;
+	color: rgba(0,0,0,1.00);
+	border-style: solid;
+	border-color: rgba(0,0,0,1.00);
+	}	
+p{
+	text-align: justify;
+	line-height: 20pt;
+	margin-top: 103px;
+	margin-right: -430px;
+	padding-top: 0px;
+}	
+	
+#header {
+	background-color: rgba(231,149,15,0.86);
+	padding-top: 114px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 35px;
+	font-family: 'Ravi Prakash', cursive;
+	border-radius: 11px;
+	color: rgba(255,255,255,1.00);
+	margin-left: -172px;
+	margin-right: -170px;
+	margin-bottom: 47px;
+	margin-top: -174px;
+	background-image: 
+;
+	font-size: 29px;
+	background-image: url(url);
+	border-style: solid;
+	border-color: rgba(0,0,0,1.00);
+	}	
+#footer	{
+	font-size: small;
+	background-color: rgba(155,76,78,0.50);
+	padding-top: 1px;
+	padding-right: 1px;
+	padding-left: 1px;
+	padding-bottom: 1px;
+	margin-top: 164px;
+	margin-left: -15px;
+	margin-right: -12px;
+	border-radius: 59px;
+	text-align: center;
+	margin-bottom: -151px;
+	}
+	img{
+	display: table-cell;
+	margin-left: -59px;
+	margin-right: 0px;
+	margin-bottom: -97px;
+	margin-top: 101px;
+	border-radius: 124px;
+	border: 5px solid rgba(255,0,71,1.00);
+	}	
+		a{
+	font-family: "Permanent Marker", cursive;
+	margin-left: 40px;
+	margin-right: 38px;
+	margin-top: 0px;
+	font-size: 28px;
+	padding-top: 0px;
+	margin-bottom: -1px;
+	text-shadow: 4px -2px rgba(129,226,125,1.00);
+	color: rgba(0,0,0,0.87);
+		}		
+	
+a:link {
+	color: rgba(0,0,0,0.87);
+	text-decoration: none;
+}
+a:visited {
+	color: rgba(0,0,0,0.87);
+	text-decoration: none;
+}
+a:hover {
+	color: rgba(233,194,101,1);
+	text-decoration: none;
+}
+a:active {
+	color: rgba(243,209,128,1);
+	text-decoration: none;
+}
+nav{
+	color: rgba(225,214,165,1.00);
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size: 42px;
+	padding-top: 0px;
+	margin-top: -44px;
+	margin-bottom: -17px;
+	margin-left: 174px;
+	text-shadow: 1px 2px rgba(0,0,0,1.00);
+	}	
+hr{
+	color: rgba(225,214,165,1.00);
+	-webkit-box-shadow: 0px 0px rgba(225,214,165,1.00);
+	box-shadow: 0px 0px rgba(225,214,165,1.00);
+	margin-top: 32px;
+	margin-bottom: 34px;
+	}
+			#skate1950_1{
+	margin-top: -16px;
+	margin-left: 510px;
+			}
+			#skate1950th{
+	margin-left: 1024px;
+	margin-top: 38px;
+			}
+			#skater1970{
+	margin-left: 716px;
+			}
+			#tonyhawkthemanth{
+	margin-left: 1060px;
+	margin-top: 55px;
+			}
+			#Zero{
+	margin-bottom: -346px;
+	margin-left: 27px;
+			}
+			#vans{
+	margin-left: 507px;
+	margin-top: 24px;
+	margin-bottom: -362px;
+	margin-right: 0px;
+			}
+			#Chocolate{
+	margin-left: 27px;
+	margin-top: 24px;
+	margin-bottom: -510px;
+			}
+			#Supreme{
+	margin-left: 700px;
+	margin-top: -10px;
+	margin-bottom: -231px;
+			}
+			}			
+        </style>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Righteous&display=swap" rel="stylesheet"> 
+<meta charset="utf-8">                                                                                                
+<title> History </title>
+</head>
+	
+<body onLoad="MM_preloadImages('MidtermPictures/Homepagepics/1950s/1950_2_2.jpg','MidtermPictures/Homepagepics/1960s/Pattimcgee.jpg','MidtermPictures/Homepagepics/1970s/tonyhawktheman_2.jpg','MidtermPictures/Homepagepics/1990s/stairset_2.png','MidtermPictures/Homepagepics/1990s/Kostontheman.jpg')">
+	<div id="container"> 
+	
+	
+<div id="header">
+<h1>Skate Culture</h1>	
+	<hr>
+	<hr>
+	<nav>|: <a href="History.html">History</a> :|:<a href="Notable.html"> Notable People</a> :|: <a href="Flicks.html">Flicks</a> :|: <a href="References.html">References</a> :|</nav>
+	
+</div>	
+<div id="main">
+	<h2> History of Skateboarding </h2>
+	<img src="MidtermPictures/Homepagepics/Logos/Zero.png" alt="" width="300" height="300" id="Zero"/>
+	<img src="MidtermPictures/Homepagepics/1950s/1950_1_2.jpg" alt="" width="700" height="301" id="skate1950_1"/> 
+	<img src="MidtermPictures/Homepagepics/1950s/1950_2_2th.jpg" alt="" width="120" height="130" id="skate1950th" onMouseOver="MM_swapImage('skate1950_1','','MidtermPictures/Homepagepics/1950s/1950_2_2.jpg',1)" onMouseOut="MM_swapImgRestore()"/> 
+<p>By the early 1950s, surfing can be traced as the source of skateboarding. Some surfers had the idea to transfer the feeling of riding waves onto the streets to defy times of days with a gentle swell. Not without any reason these dudes were called “asphalt surfers”. At two spots in the world a kind of a skateboard was developed at the first time in the early 1950s: California and Hawaii. They used shorter surfboards and wheels made out of metal without some bearings. In the late 1950s, skateboarding had a first peak. During the post-war period, the U.S. economy boomed and this also affected the toy industry. During that time, the toy industry became aware of the board with wheels. In 1959, Roller Derby released the first official skateboard with some new technical developments. Thereby, the handling characteristics have been improved. For this reason, skateboarders were able to develop new tricks and maneuvers. </p>
+	<img src="MidtermPictures/Homepagepics/Logos/vans.png" alt="" width="500" height="231" id="vans"/> <img src="MidtermPictures/Homepagepics/1960s/1960scoolguy.jpg" alt="" width="450" height="450" id="coolguy"/>
+	<img src="MidtermPictures/Homepagepics/1960s/Pattimcgeeth.jpg" alt="" width="120" height="151" id="pattimcgeeth" onMouseOver="MM_swapImage('coolguy','','MidtermPictures/Homepagepics/1960s/Pattimcgee.jpg',1)" onMouseOut="MM_swapImgRestore()"/>
+	
+<p>Between the years 1959 and 1965, skateboarding became more and more popular in the United States. Particularly affected were the states on the east and west coasts. Due to the industrial development, the skateboard’s status changed from toy to sports equipment. In 1962, the surf shop “Val-Surf” in Hollywood sold the first self-produced skateboards. These boards featured a typical surfboard shape and roller skate trucks and were sold as complete boards. In the same year, the company Patterson Forbes developed the first industrially produced complete boards with more developed trucks. In 1963, the publisher of the “Surf Guide Magazine” Larry Stevenson released the first advertisement for skateboards in his magazine. Also the clothing industry specialized more and more on skateboarding. One of the most famous skateboarding shoe brand named Vans was established in 1966. From this day on, Vans supported skateboarders from all over the world. Especially shoe companies like Vans, Etnies, Converse and DC Shoes developed and manufactured skateboarding related footwear and streetwear. </p> 
+		                                                            
+<p>The only consistent thing is change and so it came to a point where everything changed for skateboarding. Frank Nasworthy’s invention of urethane wheels in 1972 made it possible for skateboarding to come back. Nasworthy started the company Cadillac Wheels and with the new material it was possible to ride smoother, faster and more comfortable. A variety of disciplines such as freestyle, downhill and slalom experienced a real high point. New magazines like the “Skateboarder Magazine” from 1975 were published and new events were launched. In 1976, the first artificially created skate park was inaugurated and new parks emerged with new elements such as vertical ramps and kickers. Then in 1978, Alan Gelfand invented a maneuver that gave skateboarding another revolutionary jump: The “Ollie”, which counts as the greatest trick ever invented and completely revolutionized skateboarding. That was the birth of street skateboarding! </p>
+	
+	<img src="MidtermPictures/Homepagepics/Logos/chocolate-sun-series.jpg" alt="" width="400" height="400" id="Chocolate"/> <img src="MidtermPictures/Homepagepics/1970s/1970skater_2.jpg" alt="" width="500" height="373" id="skater1970"/>
+<img src="MidtermPictures/Homepagepics/1970s/tonyhawkthemanth.jpg" alt="" width="140" height="144" id="tonyhawkthemanth" onMouseOver="MM_swapImage('skater1970','','MidtermPictures/Homepagepics/1970s/tonyhawktheman_2.jpg',1)" onMouseOut="MM_swapImgRestore()"/>
+
+		
+<p>In the early 1990s, skateboarding went through a further depth phase due to the increase in various trend sports. So skateboarding went back to its roots. But because of the digitalization, skateboarding maintained its presence in public. From the mid-1990s, the modern skateboarding experienced a next high phase, which continues until today. Mega events like the “X-Games” were launched and televised. Due to numerous magazines, all the events, videos and last but not least the internet, skateboarding became common worldwide.
+  
+  Because of brands like Chocolate, Girl Skateboards or Flip Skateboards, the skateboarding hardware was developed more and more and skateboarders could buy high-quality skateboards in every bigger city. 
+  
+  More indicators are the big and worldwide known events of “Street League”. “Street League Skateboarding” is a contest series for international pro skaters. Here, you only see the best street skateboarder you can think of like Nyjah Huston, Eric Koston, Paul Rodriguez, Andrew Reynolds, Ryan Sheckler or Torey Pudwill. Due to the cash prizes of 200.000 US Dollars or more for the winner and 10.000 visitors at the “Street League” stops, skateboarding has become a professional sport. 
+	</p>
+	<img src="MidtermPictures/Homepagepics/Logos/supreme.png" alt="" width="500" height="173" id="Supreme"/> <img src="MidtermPictures/Homepagepics/1990s/1990skater.jpg" alt="" width="700" height="472" id="skater1990"/>
+	<img src="MidtermPictures/Homepagepics/1990s/Kostonthemanth.jpg" alt="" width="120" height="153" id="kostonthemanth" onMouseOver="MM_swapImage('skater1990','','MidtermPictures/Homepagepics/1990s/Kostontheman.jpg',1)" onMouseOut="MM_swapImgRestore()"/>
+<p> In Germany, street skating is the most popular discipline at contests just like in the USA. The European and German skate scene is independent, has its own industry, pros and a national contest series. This is an evidence of how big the role of skateboarding is in our society.
+  
+  Skateboarding has become a job for a lot of people. Because of the increasing networking inside the skate scene, skateboarding will grow and bring more innovations in the future. But for the most of us, skateboarding is and will be a hobby and an attitude to life. </p>
+
+	  </div>				
+<div id="footer">
+<h4>Author: Tommy Hak || Class: Web Art and Design || Year: 2021</h4>	
+	
+	
+</div>	
+</div>	
+</body>
+</html>
+
